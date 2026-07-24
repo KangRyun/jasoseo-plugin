@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jasoseo-marketplace",
+  "description": "한국 취업 자기소개서 작성 파이프라인 플러그인(jasoseo)을 배포하는 마켓플레이스",
+  "owner": {
+    "name": "kr9370"
+  },
+  "plugins": [
+    {
+      "name": "jasoseo",
+      "source": "./",
+      "description": "한국 취업 자기소개서를 기업 조사→초안→글자 수 조정→전문가 리뷰→윤문→최종 검증까지 8단계로 완성하는 파이프라인.",
+      "version": "0.1.0"
+    }
+  ]
+}
