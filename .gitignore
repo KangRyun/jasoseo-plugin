@@ -1,0 +1,21 @@
+# 파이프라인 작업 부산물 (사용자 워크스페이스에서 생성됨 — 플러그인 저장소엔 불필요)
+_workspace/
+_workspace_prev/
+
+# 사용자 개인 데이터가 실수로 커밋되지 않도록 (플러그인 소스엔 절대 없어야 함)
+이력서.md
+PROFILE.md
+*_마감*/
+*_수시/
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# 로그·임시
+*.log
+*.tmp
