@@ -63,6 +63,29 @@ GitHub에서 설치 (권장):
 /jasoseo 삼성전자 데이터엔지니어 리뷰      # 이미 초안이 있고, 전문가 리뷰부터
 ```
 
+## Codex(OpenAI)에서 쓰기
+
+이 플러그인의 **설치 명령(`/plugin ...`)은 Claude Code 전용**이라 Codex에선 동작하지 않습니다. 하지만 파이프라인 본체는 표준 `SKILL.md`라, Codex의 **Skills** 기능으로 그대로 옮겨 쓸 수 있습니다 (Codex도 `SKILL.md` + `name`/`description` frontmatter 포맷을 씁니다).
+
+**설치 — 스킬 폴더만 복사하면 됩니다.**
+
+```bash
+# 전역(어디서나 사용): ~/.agents/skills/  ·  특정 저장소에서만: <repo>/.agents/skills/
+git clone https://github.com/KangRyun/jasoseo-plugin.git
+mkdir -p ~/.agents/skills
+cp -r jasoseo-plugin/skills/jasoseo ~/.agents/skills/jasoseo
+```
+
+**사용** — Codex를 작업 폴더(이력서.md가 있는 곳)에서 실행하고, 자연어로 부르면 됩니다:
+
+```
+jasoseo로 삼성전자 데이터엔지니어 자소서 초안 잡아줘
+```
+
+Codex에는 이 저장소의 서브에이전트(researcher·reviewer)가 등록되진 않지만, `SKILL.md`가 그 역할 정의(`agents/*.md`)를 따라 조사·리뷰 단계를 **직접 수행**하도록 쓰여 있어 결과는 동일하게 나옵니다. 두 역할을 Codex 서브에이전트로 따로 등록하면 더 깔끔하게 분리 실행할 수도 있습니다.
+
+> 참고: Codex의 Skills/경로는 [공식 문서](https://learn.chatgpt.com/docs/customization/overview)를 따릅니다. 버전에 따라 경로가 바뀔 수 있으니, 위 `~/.agents/skills` 가 안 먹으면 문서에서 현행 위치를 확인하세요.
+
 ## 8단계, 이렇게 진행됩니다
 
 | 단계 | 하는 일 | 나오는 파일 |
