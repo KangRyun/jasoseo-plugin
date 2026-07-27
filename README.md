@@ -22,17 +22,17 @@
 
 **1단계 — 플러그인 설치**
 
-로컬에서 바로 써보려면 (이 폴더를 내려받았다면):
+GitHub에서 설치 (권장):
 
 ```
-/plugin marketplace add /home/kr9370/jasoseo-plugin
+/plugin marketplace add KangRyun/jasoseo-plugin
 /plugin install jasoseo@jasoseo-marketplace
 ```
 
-GitHub에 올라온 걸 설치한다면:
+직접 클론해서 로컬로 써보려면 (내려받은 폴더 경로를 그대로 사용):
 
 ```
-/plugin marketplace add <github-사용자명>/jasoseo-plugin
+/plugin marketplace add ./jasoseo-plugin
 /plugin install jasoseo@jasoseo-marketplace
 ```
 

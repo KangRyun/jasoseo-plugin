@@ -3,7 +3,8 @@
   "name": "jasoseo-marketplace",
   "description": "한국 취업 자기소개서 작성 파이프라인 플러그인(jasoseo)을 배포하는 마켓플레이스",
   "owner": {
-    "name": "kr9370"
+    "name": "KangRyun",
+    "url": "https://github.com/KangRyun"
   },
   "plugins": [
     {

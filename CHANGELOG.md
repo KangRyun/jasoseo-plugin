@@ -25,5 +25,5 @@
 - 이 플러그인은 자소서를 대신 **제출하지 않습니다**. 최종 검토와 제출은 사용자 몫입니다.
 - 자소서 소재는 사용자의 `이력서.md`에 있는 사실만 사용합니다. 없는 경력·수치를 생성하지 않습니다.
 
-[Unreleased]: https://github.com/<사용자명>/jasoseo-plugin/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/<사용자명>/jasoseo-plugin/releases/tag/v0.1.0
+[Unreleased]: https://github.com/KangRyun/jasoseo-plugin/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/KangRyun/jasoseo-plugin/releases/tag/v0.1.0

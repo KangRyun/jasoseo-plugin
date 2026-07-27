@@ -3,10 +3,15 @@
   "description": "한국 취업 자기소개서(자소서)를 기업 조사부터 초안, 글자 수 조정, 전문가 리뷰, AI 티 제거 윤문, 최종 검증까지 8단계로 완성하는 파이프라인. 신입·인턴 지원자가 여러 회사에 지원할 때 반복되는 작업(회사별 폴더 관리, 소재 중복 방지, 경험 귀속 정확성, 글자 수 실측)을 자동화한다.",
   "version": "0.1.0",
   "author": {
-    "name": "kr9370"
+    "name": "KangRyun",
+    "url": "https://github.com/KangRyun"
   },
+  "homepage": "https://github.com/KangRyun/jasoseo-plugin",
+  "repository": "https://github.com/KangRyun/jasoseo-plugin",
   "license": "MIT",
   "keywords": [
+    "claude-code",
+    "claude-code-plugin",
     "korean",
     "cover-letter",
     "job-application",
